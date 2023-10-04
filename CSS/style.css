@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Raleway, "Helvetica Neue", sans-serif;
+  color: #fff;
+}
+
+body {
+ background-color: #000;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 40px;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  background-clip: text;
+  -webkit-background-clip: text; 
+  -webkit-text-fill-color: transparent;
+}
+
+.banner {
+  padding-top: 56px;
+  padding-bottom: 75px;
+  font-size: 20px;
+  font-weight: 400;
+  background: linear-gradient( #000, #0c2734, #000);
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #33A8DB;
+}
+
+.banner-content {
+  background-image: url("../assets/images/banner.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.banner-content h1 {
+  margin-bottom: 16px;
+  margin-top: 0;
+}
+
+.banner-content button {
+  margin-top: 24px;
+  background-color: transparent;
+  color: #33A8DB;
+  text-transform: uppercase;
+  letter-spacing: 21%;
+  font-size: 16px;
+  font-weight: 900;
+  border-width: 2px;
+  border-color: #33A8DB;
+  padding: 19px 46px;
+}
+
+.logo {
+  width: 268px;
+  height: 268px;
+  padding: 0;
+}
+
+#course-content{
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #33A8DB;
+  padding-top: 118px;
+  padding-bottom: 90px;
+  padding-right: 324px;
+  padding-left: 324px;
+  background-color: #000 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#course-content h2 {
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+  background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+  background-clip: text;
+  -webkit-background-clip: text; /* Alguns navegadores precisam do prefixo */
+
+  /* Terceiro passo: apagar o texto, deixando apenas o fundo atrás dele */
+  -webkit-text-fill-color: transparent;
+  /* Cor que contraste com o degradê, caso o navegador não suporte `background-clip: text` */
+  color: black;
+}
+
+#course-content p {
+  text-align: center;
+  font-size: 16px;
+}
+
+.module{
+  margin: 24px;
+  padding: 16px 127px;
+  border-radius: 57px;
+  border: 1px solid #33A8DB;
+  box-shadow:  0px 5px #1a1a1a inset;
+  background-color: #252525;
+}
+.module span {
+  color: #33A8DB;
+}
+
+#transform-world {
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #33A8DB;
+  height: 363px !important;
+  background-image: url("../assets/images/woman-code.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#transform-world p {
+  width: 244px;
+  margin-left: 198px;
+  padding-top: 111px;
+  padding-bottom: 111px;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: lowercase;
+  text-shadow: 3px 3px rgba(51, 168, 219, 1);
+
+}
+
+#professional-challenges {
+  padding: 71px 324px 96px;
+  border-style: solid;
+  border-width: 0;
+  border-bottom-width: 1px;
+  border-color: #33A8DB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#professional-challenges h2 {
+  color:#33A8DB;
+  font-weight: 700;
+  font-size: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+#professional-challenges p{
+  margin-top: 32px;
+  text-align: center;
+}
+
+footer {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,1) 56%, rgba(51,168,219,0.24693627450980393) 100%);
+  padding-top: 59px;
+  padding-bottom: 38px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+footer p{
+  margin-top: 10px;
+}
+footer p a {
+  color: #33A8DB;
+}
